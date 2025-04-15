@@ -1,0 +1,88 @@
+{
+    "apiKeys": {
+        "googleTTS": "AIzaSyAbs8VHbwp9xXiEeV00fIWpxkoUzMho-_Q",
+        "openAI": "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",
+        "elevenLabs": "sk_e92531e139ee2043898dc711fa690ef83c46e903e1395115"
+    },
+    "voiceSettings": {
+        "provider": "google",
+        "voice": "en-F",
+        "language": "en"
+    },
+    "cvData": {
+        "about": {
+            "title": "About Me",
+            "description": "Passionate tech professional with expertise in web development and software engineering. Focused on creating efficient, scalable solutions with modern technologies."
+        },
+        "technicalSkills": [
+            {
+                "name": "JavaScript/TypeScript",
+                "proficiency": 90
+            },
+            {
+                "name": "React/Vue.js",
+                "proficiency": 85
+            },
+            {
+                "name": "Node.js/Express",
+                "proficiency": 80
+            },
+            {
+                "name": "SQL/NoSQL",
+                "proficiency": 75
+            },
+            {
+                "name": "DevOps/CI-CD",
+                "proficiency": 70
+            }
+        ],
+        "experience": [
+            {
+                "title": "Junior Developer",
+                "company": "StartUp Innovations",
+                "period": "2015 - 2017",
+                "responsibilities": [
+                    "Built and maintained company website and internal tools",
+                    "Assisted in developing mobile applications using React Native",
+                    "Participated in agile development processes"
+                ]
+            },
+            {
+                "title": "Senior Developer",
+                "company": "Tech Solutions Inc",
+                "period": "2017 - Present",
+                "responsibilities": [
+                    "Lead developer for enterprise applications",
+                    "Mentored junior developers",
+                    "Implemented CI/CD pipelines"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "name": "E-commerce Platform",
+                "description": "Full-stack application with React, Node.js, and MongoDB. Features include user authentication, product catalog, and payment processing.",
+                "technologies": ["React", "Node.js", "MongoDB"]
+            },
+            {
+                "name": "Task Management System",
+                "description": "Real-time collaborative task management system with role-based access control.",
+                "technologies": ["Vue.js", "Express", "PostgreSQL"]
+            }
+        ],
+        "contact": {
+            "email": "email@example.com",
+            "phone": "+1 234 567 890",
+            "location": "City, Country",
+            "linkedin": "linkedin.com/in/yourprofile",
+            "github": "github.com/yourusername"
+        }
+    },
+    "avatarSettings": {
+        "headMovement": 50,
+        "eyeMovement": 50,
+        "blinkRate": 50,
+        "idleMovement": "random"
+    },
+    "systemPrompt": "You are a virtual CV assistant. When asked about your experience, skills, or background, respond based on the information in the CV. If asked about something not in the CV, politely explain that you can only discuss your professional experience and skills as outlined in your CV. Always be professional and concise in your responses."
+} 
